@@ -20,9 +20,12 @@
 				<div class="header__menu menu">
 					<nav class="menu__body">
 						<ul class="menu__list">
-							<li class="menu__item"><a href="about-us.html" class="menu__link menu__link--about-us">About Us</a></li>
-							<li class="menu__item"><a href="courses.html" class="menu__link menu__link--courses">Courses</a></li>
-							<li class="menu__item"><a href="events-list.html" class="menu__link menu__link--events">Events</a></li>
+							<li class="menu__item"><a href="about-us.html" class="menu__link menu__link--about-us">About Us</a>
+							</li>
+							<li class="menu__item"><a href="courses.html" class="menu__link menu__link--courses">Courses</a>
+							</li>
+							<li class="menu__item"><a href="events-list.html" class="menu__link menu__link--events">Events</a>
+							</li>
 							<li class="menu__item"><a href="blog.html" class="menu__link menu__link--blog">Blog</a></li>
 							<li class="menu__item"><a href="contacts.html" class="menu__link menu__link--contacts">Contacts</a>
 							</li>
@@ -111,7 +114,9 @@
 			<section class="course__curator block-person">
 				<div class="block-person__container">
 					<div class="block-person__image">
-						<picture><source srcset="img/course/01.webp" type="image/webp"><img src="img/course/01.png" alt="image"></picture>
+						<picture>
+							<source srcset="img/course/01.webp" type="image/webp"><img src="img/course/01.png" alt="image">
+						</picture>
 					</div>
 					<div class="block-person__info info-person">
 						<div class="info-person__sub-title sub-title">
@@ -207,18 +212,25 @@
 							</div>
 						</div>
 					</div>
-					<form action="files/sendmail/sendmail.php" method="post" data-ajax class="discount-course__form form-discount" novalidate>
+					<form action="files/sendmail/sendmail.php" method="post" data-ajax
+						class="discount-course__form form-discount" novalidate>
 						<div class="form-discount__column column-discount">
 							<label class="column-discount__label" for="inpname">Full name</label>
-							<input class="column-discount__input" data-required id="inpname" autocomplete="off" type="text" name="name[]" data-error="Please provide a valid input." placeholder="Your full name" class="input">
+							<input class="column-discount__input" data-required id="inpname" autocomplete="off" type="text"
+								name="name[]" data-error="Please provide a valid input." placeholder="Your full name"
+								class="input">
 						</div>
 						<div class="form-discount__column column-discount">
 							<label class="column-discount__label" for="inpmail">Email</label>
-							<input class="column-discount__input" data-required="email" id="inpmail" autocomplete="off" type="email" name="email[]" data-error="Please provide a valid input." placeholder="Your working email" class="input">
+							<input class="column-discount__input" data-required="email" id="inpmail" autocomplete="off"
+								type="email" name="email[]" data-error="Please provide a valid input."
+								placeholder="Your working email" class="input">
 						</div>
 						<div class="form-discount__column column-discount">
 							<label class="column-discount__label" for="inptel">Phone</label>
-							<input class="column-discount__input" data-required id="inptel" autocomplete="off" type="tel" name="phone[]" data-error="Please provide a valid input." placeholder="Your phone number" class="input">
+							<input class="column-discount__input" data-required id="inptel" autocomplete="off" type="tel"
+								name="phone[]" data-error="Please provide a valid input." placeholder="Your phone number"
+								class="input">
 						</div>
 						<button type="submit" class="form-discount__button button">Join the course</button>
 					</form>
@@ -346,7 +358,8 @@
 						</div>
 					</div>
 					<div class="testimonials-block__body body-testimonials">
-						<button type="button" class="body-testimonials__arrow body-testimonials__arrow--left arrow _icon-Arrow-Left"></button>
+						<button type="button"
+							class="body-testimonials__arrow body-testimonials__arrow--left arrow _icon-Arrow-Left"></button>
 						<div class="body-testimonials__slider swiper">
 							<div class="body-testimonials__wrapper swiper-wrapper">
 								<div class="body-testimonials__slide swiper-slide">
@@ -360,7 +373,10 @@
 									</div>
 									<div class="testimonial-slide__info">
 										<div class="testimonial-slide__image">
-											<picture><source srcset="img/testimonials/5f3969c9f29066.34485622.webp" type="image/webp"><img src="img/testimonials/5f3969c9f29066.34485622.jpg" alt=""></picture>
+											<picture>
+												<source srcset="img/testimonials/girl.webp" type="image/webp"><img
+													src="img/testimonials/5f3969c9f29066.34485622.jpg" alt="">
+											</picture>
 										</div>
 										<div class="testimonial-slide__bio">
 											<div class="testimonial-slide__name">Eleanor Pena</div>
@@ -377,7 +393,10 @@
 									</div>
 									<div class="testimonial-slide__info">
 										<div class="testimonial-slide__image">
-											<picture><source srcset="img/testimonials/1.webp" type="image/webp"><img src="img/testimonials/1.png" alt=""></picture>
+											<picture>
+												<source srcset="img/testimonials/1.webp" type="image/webp"><img
+													src="img/testimonials/1.png" alt="">
+											</picture>
 										</div>
 										<div class="testimonial-slide__bio">
 											<div class="testimonial-slide__name">someone else</div>
@@ -387,7 +406,8 @@
 								</div>
 							</div>
 						</div>
-						<button type="button" class="body-testimonials__arrow body-testimonials__arrow--right arrow _icon-Arrow-Right"></button>
+						<button type="button"
+							class="body-testimonials__arrow body-testimonials__arrow--right arrow _icon-Arrow-Right"></button>
 					</div>
 					<div class="testimonials-block__pagination swiper-pagination"></div>
 				</div>
@@ -410,15 +430,21 @@
 						<form action="files/sendmail/sendmail.php" method="POST" class="form-register-form" novalidate>
 							<div class="form-register-form__line">
 								<label class="form-register-form__label" for="fullname">Full Name</label>
-								<input id="fullname" data-required type="text" name="name" data-error="Please provide a valid input." placeholder="Your full name" class="form-register-form__input">
+								<input id="fullname" data-required type="text" name="name"
+									data-error="Please provide a valid input." placeholder="Your full name"
+									class="form-register-form__input">
 							</div>
 							<div class="form-register-form__line">
 								<label class="form-register-form__label" for="regemail">Email</label>
-								<input id="regemail" data-required="email" type="email" name="email" data-error="Please provide a valid input." placeholder="Your working email" class="form-register-form__input">
+								<input id="regemail" data-required="email" type="email" name="email"
+									data-error="Please provide a valid input." placeholder="Your working email"
+									class="form-register-form__input">
 							</div>
 							<div class="form-register-form__line">
 								<label class="form-register-form__label" for="phone">Phone</label>
-								<input class="form-register-form__input" data-required id="phone" autocomplete="off" type="tel" name="phone[]" data-error="Please provide a valid input." placeholder="Your phone number" class="input">
+								<input class="form-register-form__input" data-required id="phone" autocomplete="off" type="tel"
+									name="phone[]" data-error="Please provide a valid input." placeholder="Your phone number"
+									class="input">
 							</div>
 							<button type="submit" class="form-register-form__button button">Join the course</button>
 						</form>
@@ -437,8 +463,10 @@
 							<h2 class="sub-title__tit">You may also like</h2>
 						</div>
 						<div class="header-check-other__controls">
-							<button type="button" class="header-check-other__arrow header-check-other__arrow--left arrow _icon-Arrow-Left"></button>
-							<button type="button" class="header-check-other__arrow header-check-other__arrow--right arrow _icon-Arrow-Right"></button>
+							<button type="button"
+								class="header-check-other__arrow header-check-other__arrow--left arrow _icon-Arrow-Left"></button>
+							<button type="button"
+								class="header-check-other__arrow header-check-other__arrow--right arrow _icon-Arrow-Right"></button>
 						</div>
 					</div>
 					<div class="check-other-course__slider swiper">
@@ -446,7 +474,12 @@
 							<div class="check-other-course__slide swiper-slide">
 								<div class="cards-block__item item-card item-card--main">
 									<div class="item-card__image-ibg">
-										<a href="#"><picture><source srcset="img/featured/1.webp" type="image/webp"><img src="img/featured/1.jpg" alt="image"></picture></a>
+										<a href="#">
+											<picture>
+												<source srcset="img/featured/1.webp" type="image/webp"><img src="img/featured/1.jpg"
+													alt="image">
+											</picture>
+										</a>
 									</div>
 									<div class="item-card__body">
 										<div class="item-card__badge item-card__badge--mark"><a href="#">Marketing</a></div>
@@ -462,7 +495,12 @@
 							<div class="check-other-course__slide swiper-slide">
 								<div class="cards-block__item item-card item-card--main">
 									<div class="item-card__image-ibg">
-										<a href="#"><picture><source srcset="img/featured/2.webp" type="image/webp"><img src="img/featured/2.jpg" alt="image"></picture></a>
+										<a href="#">
+											<picture>
+												<source srcset="img/featured/2.webp" type="image/webp"><img src="img/featured/2.jpg"
+													alt="image">
+											</picture>
+										</a>
 									</div>
 									<div class="item-card__body">
 										<div class="item-card__badge item-card__badge--manag"><a href="#">Management</a></div>
@@ -477,7 +515,12 @@
 							<div class="check-other-course__slide swiper-slide">
 								<div class="cards-block__item item-card item-card--main">
 									<div class="item-card__image-ibg">
-										<a href="#"><picture><source srcset="img/featured/3.webp" type="image/webp"><img src="img/featured/3.jpg" alt="image"></picture></a>
+										<a href="#">
+											<picture>
+												<source srcset="img/featured/3.webp" type="image/webp"><img src="img/featured/3.jpg"
+													alt="image">
+											</picture>
+										</a>
 									</div>
 									<div class="item-card__body">
 										<div class="item-card__badge item-card__badge--hr"><a href="#">HR & Recruting</a></div>
@@ -492,7 +535,12 @@
 							<div class="team-block__slide swiper-slide">
 								<div class="cards-block__item item-card item-card--main">
 									<div class="item-card__image-ibg">
-										<a href="#"><picture><source srcset="img/featured/4.webp" type="image/webp"><img src="img/featured/4.jpg" alt="image"></picture></a>
+										<a href="#">
+											<picture>
+												<source srcset="img/featured/4.webp" type="image/webp"><img src="img/featured/4.jpg"
+													alt="image">
+											</picture>
+										</a>
 									</div>
 									<div class="item-card__body">
 										<div class="item-card__badge item-card__badge--mark"><a href="#">Marketing</a></div>
@@ -526,8 +574,10 @@
 							<img src="img/footer/logo.svg" alt="logo">
 						</div>
 						<div class="info-footer__text">
-							<p>Createx Online School is a leader in online studying. We have lots of courses and programs from the
-								main market experts. We provide relevant approaches to online learning, internships and employment
+							<p>Createx Online School is a leader in online studying. We have lots of courses and programs from
+								the
+								main market experts. We provide relevant approaches to online learning, internships and
+								employment
 								in the largest companies in the country. </p>
 						</div>
 						<div class="info-footer__socials">
@@ -546,11 +596,15 @@
 							</h3>
 							<nav class="smap-footer__menu">
 								<ul class="smap-footer__list footer-list">
-									<li class="footer-list__item"><a href="about-us.html" class="footer-list__link">About Us</a></li>
-									<li class="footer-list__item"><a href="courses.html" class="footer-list__link">Courses</a></li>
-									<li class="footer-list__item"><a href="events-list.html" class="footer-list__link">Events</a></li>
+									<li class="footer-list__item"><a href="about-us.html" class="footer-list__link">About Us</a>
+									</li>
+									<li class="footer-list__item"><a href="courses.html" class="footer-list__link">Courses</a>
+									</li>
+									<li class="footer-list__item"><a href="events-list.html" class="footer-list__link">Events</a>
+									</li>
 									<li class="footer-list__item"><a href="blog.html" class="footer-list__link">Blog</a></li>
-									<li class="footer-list__item"><a href="contacts.html" class="footer-list__link">Contacts</a></li>
+									<li class="footer-list__item"><a href="contacts.html" class="footer-list__link">Contacts</a>
+									</li>
 								</ul>
 							</nav>
 						</div>
@@ -574,9 +628,11 @@
 							</h3>
 							<div class="title-footer__block">
 								<ul class="contact-us-footer__list footer-list">
-									<li class="footer-list__item _icon-iPhone"><a href="tel:4055550128" class="footer-list__link">(405)
+									<li class="footer-list__item _icon-iPhone"><a href="tel:4055550128"
+											class="footer-list__link">(405)
 											555-0128</a></li>
-									<li class="footer-list__item _icon-Mail"><a href="mailto:hello@createx.com" class="footer-list__link">hello@createx.com</a></li>
+									<li class="footer-list__item _icon-Mail"><a href="mailto:hello@createx.com"
+											class="footer-list__link">hello@createx.com</a></li>
 								</ul>
 							</div>
 						</div>
@@ -587,7 +643,9 @@
 						</h3>
 						<div class="sign-up-footer__form">
 							<form action="sendmail" method="GET">
-								<input data-required="email" autocomplete="off" type="email" name="form[email]" data-error="Please provide a valid input." placeholder="Email address" class="sign-up-footer__input">
+								<input data-required="email" autocomplete="off" type="email" name="form[email]"
+									data-error="Please provide a valid input." placeholder="Email address"
+									class="sign-up-footer__input">
 								<button type="submit" class="sign-up-footer__button _icon-Arrow-Right"></button>
 							</form>
 						</div>
@@ -619,17 +677,22 @@
 				<form action="#" method="get" class="popup__form form-popup" novalidate>
 					<div class="form-popup__line">
 						<label class="form-popup__label" for="foremail_2">Email</label>
-						<input id="foremail_2" data-required="email" type="email" name="email" data-error="Please provide a valid input." placeholder="Your working email" class="form-popup__input">
+						<input id="foremail_2" data-required="email" type="email" name="email"
+							data-error="Please provide a valid input." placeholder="Your working email"
+							class="form-popup__input">
 					</div>
 					<div class="form-popup__line">
 						<label class="form-popup__label" for="forpassword_2">Password</label>
-						<input id="forpassword_2" data-required type="password" autocomplete="current-password" name="password" data-error="Please provide a valid input." placeholder="Type your password" class="form-popup__input">
+						<input id="forpassword_2" data-required type="password" autocomplete="current-password"
+							name="password" data-error="Please provide a valid input." placeholder="Type your password"
+							class="form-popup__input">
 						<span class="popup__viewpass"></span>
 					</div>
 					<div class="form-popup__check">
 						<div class="checkbox">
 							<input id="c_1" data-error="Error" class="checkbox__input" type="checkbox" value="1" name="form[]">
-							<label for="c_1" class="checkbox__label"><span class="checkbox__text">Keep me signed in</span></label>
+							<label for="c_1" class="checkbox__label"><span class="checkbox__text">Keep me signed
+									in</span></label>
 						</div>
 						<a class="form-popup__forgot" href="#">Forgot password?</a>
 					</div>
@@ -641,7 +704,9 @@
 					<div class="bottom-popup__orsicials">
 						<div class="bottom-popup__text">Or sign in with</div>
 						<div class="bottom-popup__socials">
-							<button type="button" class="_icon-Facebook"></button><button type="button" class="_icon-Google"></button><button type="button" class="_icon-Twitter"></button><button type="button" class="_icon-Linked-In"></button>
+							<button type="button" class="_icon-Facebook"></button><button type="button"
+								class="_icon-Google"></button><button type="button" class="_icon-Twitter"></button><button
+								type="button" class="_icon-Linked-In"></button>
 						</div>
 					</div>
 				</div>
@@ -660,20 +725,27 @@
 				<form action="#" method="post" class="popup__form form-popup" novalidate>
 					<div class="form-popup__line">
 						<label class="form-popup__label" for="forname">Full Name</label>
-						<input id="forname" data-required type="text" name="name" data-error="Please provide a valid input." placeholder="Your full name" class="form-popup__input">
+						<input id="forname" data-required type="text" name="name" data-error="Please provide a valid input."
+							placeholder="Your full name" class="form-popup__input">
 					</div>
 					<div class="form-popup__line">
 						<label class="form-popup__label" for="foremail">Email</label>
-						<input id="foremail" data-required="email" type="email" name="email" data-error="Please provide a valid input." placeholder="Your working email" class="form-popup__input">
+						<input id="foremail" data-required="email" type="email" name="email"
+							data-error="Please provide a valid input." placeholder="Your working email"
+							class="form-popup__input">
 					</div>
 					<div class="form-popup__line">
 						<label class="form-popup__label" for="forpassword">Password</label>
-						<input id="forpassword" data-required type="password" autocomplete="current-password" name="password" data-error="Please provide a valid input." placeholder="Type your password" class="form-popup__input password">
+						<input id="forpassword" data-required type="password" autocomplete="current-password" name="password"
+							data-error="Please provide a valid input." placeholder="Type your password"
+							class="form-popup__input password">
 						<span class="popup__viewpass"></span>
 					</div>
 					<div class="form-popup__line">
 						<label class="form-popup__label" for="forcpassword">Confirm Password</label>
-						<input id="forcpassword" data-required type="password" autocomplete="off" name="confirm-password" data-error="Please provide a valid input." placeholder="Confirm your password" class="form-popup__input confirm-password">
+						<input id="forcpassword" data-required type="password" autocomplete="off" name="confirm-password"
+							data-error="Please provide a valid input." placeholder="Confirm your password"
+							class="form-popup__input confirm-password">
 						<span class="popup__viewpass"></span>
 					</div>
 					<div class="form-popup__check">
@@ -685,12 +757,15 @@
 					<button type="submit" class="form-popup__button button">Sign up</button>
 				</form>
 				<div class="popup__bottom bottom-popup">
-					<div class="bottom-popup__donthave">Already have an account?<a data-popup="#popup-log" href="#">Sign in</a>
+					<div class="bottom-popup__donthave">Already have an account?<a data-popup="#popup-log" href="#">Sign
+							in</a>
 					</div>
 					<div class="bottom-popup__orsicials">
 						<div class="bottom-popup__text">Or sign in with</div>
 						<div class="bottom-popup__socials">
-							<button type="button" class="_icon-Facebook"></button><button type="button" class="_icon-Google"></button><button type="button" class="_icon-Twitter"></button><button type="button" class="_icon-Linked-In"></button>
+							<button type="button" class="_icon-Facebook"></button><button type="button"
+								class="_icon-Google"></button><button type="button" class="_icon-Twitter"></button><button
+								type="button" class="_icon-Linked-In"></button>
 						</div>
 					</div>
 				</div>
